@@ -194,66 +194,66 @@ function getTriangleArea(base, height) {
 }
 
 
-const checks = () => {
+// const checks = () => {
 
-  console.log(newString);
+//   console.log(newString);
 
-  console.log(newNum);
+//   console.log(newNum);
 
-  console.log(newBool);
+//   console.log(newBool);
 
-  console.log(newSubtract());
+//   console.log(newSubtract());
 
-  console.log(newMultiply());
+//   console.log(newMultiply());
 
-  console.log(newModulo());
+//   console.log(newModulo());
 
-  console.log(returnString('blah'));
+//   console.log(returnString('blah'));
 
-  console.log(add(8, 5));
+//   console.log(add(8, 5));
 
-  console.log(subtract(5, 4));
+//   console.log(subtract(5, 4));
 
-  console.log(multiply(4, 5));
+//   console.log(multiply(4, 5));
 
-  console.log(divide(20 / 4));
+//   console.log(divide(20 / 4));
 
-  console.log(areEqual(5, 5));
+//   console.log(areEqual(5, 5));
 
-  console.log(areSameLength('yes', 'yes'));
+//   console.log(areSameLength('yes', 'yes'));
 
-  console.log(lessThanNinety(89));
+//   console.log(lessThanNinety(89));
 
-  console.log(greaterThanFifty(51));
+//   console.log(greaterThanFifty(51));
 
-  console.log(getRemainder(76, 3));
+//   console.log(getRemainder(76, 3));
 
-  console.log(isEven(2));
+//   console.log(isEven(2));
 
-  console.log(isOdd(5));
+//   console.log(isOdd(5));
 
-  console.log(square(2));
+//   console.log(square(2));
 
-  console.log(cube(2));
+//   console.log(cube(2));
 
-  console.log(raiseToPower(2, 3));
+//   console.log(raiseToPower(2, 3));
 
-  console.log(roundNumber(4.5));
+//   console.log(roundNumber(4.5));
 
-  console.log(roundUp(4.5))
+//   console.log(roundUp(4.5))
 
-  console.log(addExclamationPoint('Me'));
+//   console.log(addExclamationPoint('Me'));
 
-  console.log(combineNames('Will', 'Kotheimer'));
+//   console.log(combineNames('Will', 'Kotheimer'));
 
-  console.log('Will');
+//   console.log('Will');
 
-  console.log(getRectangleArea(2, 3));
+//   console.log(getRectangleArea(2, 3));
 
-  console.log(getTriangleArea(2, 3));
+//   console.log(getTriangleArea(2, 3));
 
 
 
-}
+// }
 
-checks();
+// checks();

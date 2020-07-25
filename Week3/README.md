@@ -181,6 +181,7 @@ function cube(num) {
 
 *This one lets you choose how many times you want to
 multiply num times itself. So if exponent is 3 for example, you would multiply num X num X num. If exponent was 4
+```
 // 21
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
@@ -264,67 +265,3 @@ function getTriangleArea(base, height) {
 }
 ```
 
-
-const checks = () => {
-
-  console.log(newString);
-
-  console.log(newNum);
-
-  console.log(newBool);
-
-  console.log(newSubtract());
-
-  console.log(newMultiply());
-
-  console.log(newModulo());
-
-  console.log(returnString('blah'));
-
-  console.log(add(8, 5));
-
-  console.log(subtract(5, 4));
-
-  console.log(multiply(4, 5));
-
-  console.log(divide(20 / 4));
-
-  console.log(areEqual(5, 5));
-
-  console.log(areSameLength('yes', 'yes'));
-
-  console.log(lessThanNinety(89));
-
-  console.log(greaterThanFifty(51));
-
-  console.log(getRemainder(76, 3));
-
-  console.log(isEven(2));
-
-  console.log(isOdd(5));
-
-  console.log(square(2));
-
-  console.log(cube(2));
-
-  console.log(raiseToPower(2, 3));
-
-  console.log(roundNumber(4.5));
-
-  console.log(roundUp(4.5))
-
-  console.log(addExclamationPoint('Me'));
-
-  console.log(combineNames('Will', 'Kotheimer'));
-
-  console.log('Will');
-
-  console.log(getRectangleArea(2, 3));
-
-  console.log(getTriangleArea(2, 3));
-
-
-
-}
-
-checks();
