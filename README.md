@@ -1,7 +1,7 @@
 # Week 3 Code Challenge
----
+
 ## Definitions
----
+
 - *Variables*: A variable is a placeholder that can hold many different values.
 - *Strings*: A string is a data type that is enclosed by quotation marks or back ticks. Typically, a string is formed by words/letters but it can include numbers as well.
 - *Functions*: A function is a reusable piece of code that takes in a value known as an argument, changes that argument in some way, and then returns that changed value.
