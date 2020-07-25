@@ -73,7 +73,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  return (str1.length === str2.length)
+  return (str1.length === str2.length);
 }
 
 // 14
@@ -112,7 +112,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  return (num % 2 == 1)
+  return (num % 2 == 1);
 }
 
 // 19
@@ -135,7 +135,7 @@ function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
 
-  return Math.pow(num, exponent)
+  return Math.pow(num, exponent);
 }
 
 // 22
@@ -192,68 +192,3 @@ function getTriangleArea(base, height) {
   // code here
   return (base * height) / 2;
 }
-
-
-// const checks = () => {
-
-//   console.log(newString);
-
-//   console.log(newNum);
-
-//   console.log(newBool);
-
-//   console.log(newSubtract());
-
-//   console.log(newMultiply());
-
-//   console.log(newModulo());
-
-//   console.log(returnString('blah'));
-
-//   console.log(add(8, 5));
-
-//   console.log(subtract(5, 4));
-
-//   console.log(multiply(4, 5));
-
-//   console.log(divide(20 / 4));
-
-//   console.log(areEqual(5, 5));
-
-//   console.log(areSameLength('yes', 'yes'));
-
-//   console.log(lessThanNinety(89));
-
-//   console.log(greaterThanFifty(51));
-
-//   console.log(getRemainder(76, 3));
-
-//   console.log(isEven(2));
-
-//   console.log(isOdd(5));
-
-//   console.log(square(2));
-
-//   console.log(cube(2));
-
-//   console.log(raiseToPower(2, 3));
-
-//   console.log(roundNumber(4.5));
-
-//   console.log(roundUp(4.5))
-
-//   console.log(addExclamationPoint('Me'));
-
-//   console.log(combineNames('Will', 'Kotheimer'));
-
-//   console.log('Will');
-
-//   console.log(getRectangleArea(2, 3));
-
-//   console.log(getTriangleArea(2, 3));
-
-
-
-// }
-
-// checks();
