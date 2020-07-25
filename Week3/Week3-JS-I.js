@@ -1,12 +1,12 @@
-"use strict";
+'use strict';
 
 //In these first 6 questions, replace `null` with the answer
 
 //1. create a string variable, it can contain anything
-const newString = "x";
+const newString = 'x';
 
 //2. create a number variable, it an be any number
-const newNum = "y";
+const newNum = 'y';
 
 //3. create a boolean variable
 const newBool = true;
@@ -68,9 +68,9 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   if (x === y)
-    return true
+    return true;
   else
-    return false
+    return false;
 }
 
 
@@ -80,7 +80,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   if (str1.length === str2.length)
-    return true
+    return true;
   else
     return false;
 }
@@ -91,9 +91,9 @@ function lessThanNinety(num) {
   // return true if the function argument: num , is less than ninety
   // otherwise return false
   if (num < 90)
-    return true
+    return true;
   else
-    return false
+    return false;
 }
 
 
@@ -102,9 +102,9 @@ function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
   if (num > 50)
-    return true
+    return true;
   else
-    return false
+    return false;
 }
 
 
@@ -120,9 +120,9 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   if (num % 2 === 0)
-    return true
+    return true;
   else
-    return false
+    return false;
 }
 
 
@@ -131,9 +131,9 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   if (num % 2 === 0)
-    return false
+    return false;
   else
-    return true
+    return true;
 }
 
 // 19
