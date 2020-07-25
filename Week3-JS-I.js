@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 //In these first 6 questions, replace `null` with the answer
 
@@ -30,7 +30,7 @@ function returnString(str) {
   //simply return the string provided: str
   return str;
 }
-
+returnString('Hey there!');
 // 8
 function add(x, y) {
   // x and y are numbers
@@ -39,7 +39,7 @@ function add(x, y) {
   let sum = x + y;
   return sum;
 }
-
+add(1,2);
 // 9
 function subtract(x, y) {
   // subtract y from x and return the value
@@ -47,7 +47,7 @@ function subtract(x, y) {
   let difference = x - y;
   return difference;
 }
-
+subtract(1, 2);
 // 10
 function multiply(x, y) {
   // multiply x by y and return the value
@@ -55,7 +55,7 @@ function multiply(x, y) {
   let product = x * y;
   return product;
 }
-
+multiply(1, 2);
 // 11
 function divide(x, y) {
   // divide x by y and return the value
@@ -63,19 +63,19 @@ function divide(x, y) {
   let quotient = x / y;
   return quotient;
 }
-
+divide(4, 2);
 // 12
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
   if (x === y) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
-
+areEqual(4, 5);
 // 13
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
@@ -87,7 +87,7 @@ function areSameLength(str1, str2) {
     return false;
   }
 }
-
+areSameLength("Just three words", "two words");
 
 // 14
 function lessThanNinety(num) {
@@ -100,7 +100,7 @@ function lessThanNinety(num) {
     return false;
   }
 }
-
+lessThanNinety(89);
 // 15
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
@@ -112,7 +112,7 @@ function greaterThanFifty(num) {
     return false;
   }
 }
-
+greaterThanFifty(11);
 // 16
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
@@ -120,7 +120,7 @@ function getRemainder(x, y) {
   let remainder = x / y;
   return remainder;
 }
-
+getRemainder(4, 2);
 // 17
 function isEven(num) {
   // return true if num is even
@@ -132,7 +132,7 @@ function isEven(num) {
     return false;
   }
 }
-
+isEven(4);
 // 18
 function isOdd(num) {
   // return true if num is odd
@@ -144,7 +144,7 @@ function isOdd(num) {
     return true;
   }
 }
-
+isOdd(3);
 // 19
 function square(num) {
   // square num and return the new value
@@ -153,7 +153,7 @@ function square(num) {
   let squareNum = num * num;
   return squareNum;
 }
-
+square(2);
 // 20
 function cube(num) {
   // cube num and return the new value
@@ -161,7 +161,7 @@ function cube(num) {
   let cubed = num * num * num;
   return cubed;
 }
-
+cube(2);
 // 21
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
@@ -169,30 +169,30 @@ function raiseToPower(num, exponent) {
   let power = Math.pow(num, exponent);
   return power;
 }
-
+raiseToPower(4, 2);
 // 22
 function roundNumber(num) {
   // round num and return it
   // code here
    return Math.round(num);
 }
-
+roundNumber(2.2);
 // 23
 function roundUp(num) {
   // round num up and return it
   // code here
   return Math.ceil(num);  
 }
-
+roundUp(2.5);
 // 24
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  let str2 = '!'
-  return `${str}${str2}`
+  let str2 = '!';
+  return `${str}${str2}`;
 }
-
+addExclamationPoint('hello world!');
 // 25
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
@@ -201,16 +201,16 @@ function combineNames(firstName, lastName) {
   let fullName = `${firstName} ${lastName}`;
   return fullName;
 }
-
+combineNames('Stephen', 'Freeny');
 // 26
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let greeting = 'Hello'
-  return `${greeting}  ${name}!`
+  let greeting = 'Hello';
+  return `${greeting}  ${name}!`;
 }
-
+getGreeting('Sam');
 // The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
 
@@ -221,7 +221,7 @@ function getRectangleArea(length, width) {
   let area = length * width;
   return area;
 }
-
+getRectangleArea(4, 2);
 // 28
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
@@ -229,3 +229,4 @@ function getTriangleArea(base, height) {
   let triArea = (base * height) / 2;
   return triArea;
 }
+getTriangleArea(6, 2);
