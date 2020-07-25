@@ -39,6 +39,7 @@ function add(x, y) {
   return x + y;
 }
 
+
 // 9
 function subtract(x, y) {
   // subtract y from x and return the value
@@ -53,12 +54,14 @@ function multiply(x, y) {
   return x * y;
 }
 
+
 // 11
 function divide(x, y) {
   // divide x by y and return the value
   // code here
   return x / y;
 }
+
 
 // 12
 function areEqual(x, y) {
@@ -128,6 +131,7 @@ function isEven(num) {
   }
 }
 
+
 // 18
 function isOdd(num) {
   // return true if num is odd
@@ -145,7 +149,7 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root!
   // code here
-  const squared = math.pow(num, 2);
+  const squared = Math.pow(num, 2);
   return squared;
 }
 
@@ -153,7 +157,7 @@ function square(num) {
 function cube(num) {
   // cube num and return the new value
   // code here
-  const cubed = math.pow(num, 3);
+  const cubed = Math.pow(num, 3);
   return cubed;
 }
 
@@ -161,7 +165,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  const powerOf = math.pow(num, exponent);
+  const powerOf = Math.pow(num, exponent);
   return powerOf;
 }
 
@@ -169,7 +173,7 @@ function raiseToPower(num, exponent) {
 function roundNumber(num) {
   // round num and return it
   // code here
-  const rounded = math.round(num);
+  const rounded = Math.round(num);
   return rounded;
 }
 
@@ -177,7 +181,7 @@ function roundNumber(num) {
 function roundUp(num) {
   // round num up and return it
   // code here
-  const roundedUp = math.roundUp(num);
+  const roundedUp = Math.ceil(num);
   return roundedUp;
 }
 
