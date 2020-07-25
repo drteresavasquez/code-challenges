@@ -87,7 +87,7 @@ function areSameLength(str1, str2) {
     return false;
   }
 }
-areSameLength("Just three words", "two words");
+areSameLength('Just three words', 'two words');
 
 // 14
 function lessThanNinety(num) {
