@@ -217,3 +217,5 @@ function getTriangleArea(base, height) {
   // code here
   return base / 2 * height;
 }
+
+//UPDATED BY SD 4:55PM 7/25
