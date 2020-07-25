@@ -65,7 +65,7 @@ function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
   // code here
-  return (x === y ? true : false)
+  return x === y
 }
 
 // 13
@@ -112,7 +112,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  return num !== 0
+  return num % 2 !== 0
 }
 
 // 19
