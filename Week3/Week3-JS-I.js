@@ -12,13 +12,13 @@ const newNum = 3;
 const newBool = true;
 
 //4. solve the following math problem
-const newSubtract = (10 - 5 === 5);
+const newSubtract = () => (10 - 5 === 5);
 
 //5. Solve the following math problem
-const newMultiply = (10 * 4 === 40);
+const newMultiply = () => (10 * 4 === 40);
 
 //6. Solve the following math problem:
-const newModulo = (21 % 5 === 1);
+const newModulo = () => (21 % 5 === 1);
 
 //In the next 22 problems you will compete the function. All of your code will go inside of the function braces.
 //Make sure you use return when the prompt asks you to.
@@ -73,7 +73,7 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-  return (str.length === str.length2)
+  return (str1.length === str2.length)
 }
 
 // 14
@@ -134,21 +134,22 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  return num.raiseToPower(exponent);
+
+  return Math.pow(num, exponent)
 }
 
 // 22
 function roundNumber(num) {
   // round num and return it
   // code here
-  return num.roundNumber;
+  return Math.round(num);
 }
 
 // 23
 function roundUp(num) {
   // round num up and return it
   // code here
-  return num.roundUp;
+  return Math.ceil(num);
 }
 
 // 24
@@ -191,3 +192,68 @@ function getTriangleArea(base, height) {
   // code here
   return (base * height) / 2;
 }
+
+
+const checks = () => {
+
+  console.log(newString);
+
+  console.log(newNum);
+
+  console.log(newBool);
+
+  console.log(newSubtract());
+
+  console.log(newMultiply());
+
+  console.log(newModulo());
+
+  console.log(returnString('blah'));
+
+  console.log(add(8, 5));
+
+  console.log(subtract(5, 4));
+
+  console.log(multiply(4, 5));
+
+  console.log(divide(20 / 4));
+
+  console.log(areEqual(5, 5));
+
+  console.log(areSameLength('yes', 'yes'));
+
+  console.log(lessThanNinety(89));
+
+  console.log(greaterThanFifty(51));
+
+  console.log(getRemainder(76, 3));
+
+  console.log(isEven(2));
+
+  console.log(isOdd(5));
+
+  console.log(square(2));
+
+  console.log(cube(2));
+
+  console.log(raiseToPower(2, 3));
+
+  console.log(roundNumber(4.5));
+
+  console.log(roundUp(4.5))
+
+  console.log(addExclamationPoint('Me'));
+
+  console.log(combineNames('Will', 'Kotheimer'));
+
+  console.log('Will');
+
+  console.log(getRectangleArea(2, 3));
+
+  console.log(getTriangleArea(2, 3));
+
+
+
+}
+
+checks();
