@@ -3,7 +3,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //1. create a string variable, it can contain anything
-const newString = "Hello";
+const newString = 'Hello';
 
 //2. create a number variable, it an be any number
 const newNum = 42;
@@ -208,7 +208,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  const greetings = "Hello " + name + "!";
+  const greetings = `Hello ${name}!`;
   return greetings;
 }
 
