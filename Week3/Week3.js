@@ -29,25 +29,25 @@ const newModulo = 21 % 5 === 4.2;
 function returnString(str) {
   //simply return the string provided: str
   return str;
-};
+}
 
 // 8
 function add(x, y) {
-  z = x + y;
+  let z = x + y;
   return z;
-};
+}
 
 // 9
 function subtract(x, y) {
   return x - y;
-};
+}
 
 // 10
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
   return x * y;
-};
+}
 
 // 11
 function divide(x, y) {
@@ -55,7 +55,7 @@ function divide(x, y) {
   // code here
   let z = x / y;
   return z;
-};
+}
 
 // 12
 function areEqual(x, y) {
@@ -67,7 +67,7 @@ function areEqual(x, y) {
   } else {
     return false;
   }
-};
+}
 
 // 13
 function areSameLength(str1, str2) {
@@ -79,7 +79,7 @@ function areSameLength(str1, str2) {
   } else {
     return false;
   }
-};
+}
 
 // 14
 function lessThanNinety(num) {
@@ -91,7 +91,7 @@ function lessThanNinety(num) {
   } else {
     return false;
   }
-};
+}
 
 // 15
 function greaterThanFifty(num) {
@@ -103,7 +103,7 @@ function greaterThanFifty(num) {
   } else {
     return false;
   }
-};
+}
 
 // 16
 function getRemainder(x, y) {
@@ -122,7 +122,7 @@ function isEven(num) {
   } else {
     return false;
   }
-};
+}
 
 // 18
 function isOdd(num) {
@@ -134,7 +134,7 @@ function isOdd(num) {
   } else {
     return true;
   }
-};
+}
 
 // 19
 function square(num) {
@@ -142,7 +142,7 @@ function square(num) {
   // hint: NOT square root!
   // code here
   return num * num;
-};
+}
 
 // 20
 function cube(num) {
@@ -150,7 +150,7 @@ function cube(num) {
   // code here
   let newValue = num * num * num;
   return newValue;
-};
+}
 
 // 21
 function raiseToPower(num, exponent) {
@@ -173,7 +173,7 @@ function roundUp(num) {
   // round num up and return it
   // code here
   return Math.ceil(num);
-};
+}
 
 // 24
 function addExclamationPoint(str) {
@@ -182,7 +182,7 @@ function addExclamationPoint(str) {
   // code here
   let newString = str + "!";
   return newString;
-};
+}
 
 // 25
 function combineNames(firstName, lastName) {
@@ -191,7 +191,7 @@ function combineNames(firstName, lastName) {
   // code here
   let newString2 = firstName + " " + lastName;
   return newString2;
-};
+}
 
 // 26
 function getGreeting(name) {
@@ -200,7 +200,7 @@ function getGreeting(name) {
   // code here
   let newStrang = "Hello " + name + "!";
   return newStrang;
-};
+}
 
 // The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
@@ -211,7 +211,7 @@ function getRectangleArea(length, width) {
   // code here
   let area = length * width;
   return area;
-};
+}
 
 // 28
 function getTriangleArea(base, height) {
@@ -219,4 +219,4 @@ function getTriangleArea(base, height) {
   // code here
   let area1 = 0.5 * base * height;
   return area1;
-};
+}
