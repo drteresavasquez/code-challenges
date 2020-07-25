@@ -118,7 +118,6 @@ function getRemainder(x, y) {
   const result = x % y;
   return result;
 }
-console.log(getRemainder(5, 2));
 
 // 17
 function isEven(num) {
