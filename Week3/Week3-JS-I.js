@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
 //In these first 6 questions, replace `null` with the answer
 
 //1. create a string variable, it can contain anything
-const newString = "this is my string variable!";
+const newString = 'this is my string variable!';
 
 //2. create a number variable, it an be any number
 const newNum = 666;
@@ -181,7 +181,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + "!";
+  return str + '!';
 }
 
 // 25
@@ -194,12 +194,12 @@ function combineNames(firstName, lastName) {
 }
 
 // 26
-const name = "jaden"
+
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return "Hello " + `${name}` + "!";
+  return 'Hello ' + `${name}` + '!';
 }
 
 // The next three questions will have you implement math area formulas.
