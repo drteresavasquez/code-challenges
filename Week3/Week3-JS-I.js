@@ -156,7 +156,7 @@ function addExclamationPoint(str) {
 	// add an exclamation point to the end of str and return the new string
 	// 'hello world' -> 'hello world!'
 	// code here
-	return str.concat('!');
+	return str + '!';
 }
 
 // 25
@@ -164,7 +164,7 @@ function combineNames(firstName, lastName) {
 	// return firstName and lastName combined as one string and separated by a space.
 	// 'NSS', 'Bootcamp' -> 'NSS Bootcamp'
 	// code here
-	return firstName.concat(' ', lastName);
+	return firstName + ' ' + lastName;
 }
 
 // 26
@@ -173,7 +173,7 @@ function getGreeting(name) {
 	// 'Sam' -> 'Hello Sam!'
 	// code here
 	const start = 'Hello ';
-	return start.concat(name, '!');
+	return 'Hunter ' + name + '!';
 }
 
 // The next three questions will have you implement math area formulas.
