@@ -1,46 +1,9 @@
-# Code Challenges
+# Week 3 Code Challenge
 
-- Over the next few weeks, we will be testing your knowledge on several code concpets to ensure that you understand them. 
-- These assessments are meant to give you coding practice and to ensure that you follow directions and understand them.
-- We are here to help you get through them if needed.
-- [Instructions](#instructions-to-use)
-- [Submit your Challenge](#to-submit-your-assessment)
+## Definitions
 
-## Instructions to use
-
-There are two ways you can have access to this repo:
-#### 1. The Easy way 
-- Push the `Fork` option at the top of the repo
-- Clone the fork to your local
-```
-$ git clone [THE LINK FOR YOUR FORKED REPO]
-```
-- Have fun!
-
-#### 2. Follow the repo creation instructions
-- Navigate to `workspace/foundations/` and Clone this repo
-```
-$ git clone git@github.com:drteresavasquez/code-challenges.git
-$ cd code-challenges
-```
-
-- Create your own repo on Github
-
-- Connect your repo to your local clone
-```
-$ git remote -v 
-# you will see this: origin  git@github.com:drteresavasquez/code-challenges.git
-
-$ git remote remove origin
-$ git remote add origin [GET THE LINK TO THE REPO YOU CREATED ON GITHUB]
-```
-
-## To Submit Your Challenge
-- Create a branch off master named the week of the challenge
-- After you have made all the code changes, push the branch up to GitHub
-- Create a PR
-- Copy link to PR and submit on your Assignments card in ClassTracker
-
-## Don't Forget!
-
-HAVE FUN!
+- *Variables*: A variable is a placeholder that can hold many different values.
+- *Strings*: A string is a data type that is enclosed by quotation marks or back ticks. Typically, a string is formed by words/letters but it can include numbers as well.
+- *Functions*: A function is a reusable piece of code that takes in a value known as an argument, changes that argument in some way, and then returns that changed value.
+- *if Statements*: An if statement is used to check whether something is true or false (Boolean value) and then direct a function on what step to take according to the result.
+- *Boolean values*: A Boolean value is either true or false. Reducing something to a Boolean value is useful for using logic to solve problems. 
