@@ -18,7 +18,7 @@ const newSubtract = 10 - 5 === 5;
 const newMultiply = 10 * 4 === 40;
 
 //6. Solve the following math problem:
-const newModulo = 21 % 5 === 4.2;
+const newModulo = 21 % 5 === 1;
 
 //In the next 22 problems you will compete the function. All of your code will go inside of the function braces.
 //Make sure you use return when the prompt asks you to.
