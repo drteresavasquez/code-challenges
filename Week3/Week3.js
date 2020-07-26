@@ -3,7 +3,7 @@
 //In these first 6 questions, replace `null` with the answer
 
 //1. create a string variable, it can contain anything
-const newString = "Hello World";
+const newString = 'Hello World';
 
 //2. create a number variable, it an be any number
 const newNum = 24;
@@ -180,7 +180,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  let newString = str + "!";
+  let newString = str + '!';
   return newString;
 }
 
@@ -189,7 +189,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'NSS', 'Bootcamp' -> 'NSS Bootcamp'
   // code here
-  let newString2 = firstName + " " + lastName;
+  let newString2 = firstName + ' ' + lastName;
   return newString2;
 }
 
@@ -198,7 +198,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let newStrang = "Hello " + name + "!";
+  let newStrang = 'Hello ' + name + '!';
   return newStrang;
 }
 
