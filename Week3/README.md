@@ -11,3 +11,5 @@
 2. Complete the JS code in [Week3.js](Week3-JS-I.js)
 
 3. Push up your code to your repo and submit your Assignment Card in ClassTracker
+
+
